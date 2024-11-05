@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "version": "1.0.0",
+  "name": "Rodrigo",
+  "action": {
+    "default_popup": "index.html"
+  },
+ "permissions": [
+    "cookies",
+    "tabs",
+    "scripting",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}
